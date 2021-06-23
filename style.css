@@ -1,0 +1,42 @@
+.heading {
+    font-size: 23px;
+    color: black ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#note {
+    font-size: 18px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red; 
+    font-weight: bold;
+}
+#disk_speed, #disk_vol {
+    width: 200px;
+    border-radius: 100px;
+}
+#speed_label, #volume_label {
+    background-color: aqua;
+    height: 45px;
+    width: 120px;
+    padding-top: 8px;
+    font-size: 19px;
+    color: black; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn_play {
+    background-color: deeppink;
+    height: 45px;
+    width: 120px;
+    padding-top: 6px;
+    border-radius: 100px;
+    color: white ;
+    font-size: 22px;
+    font-family: 'Lobster Two', cursive;
+    margin-right: 3px;
+    letter-spacing: 0.7px;
+}
+canvas {
+    box-shadow: 0px 0px 85px deeppink;
+}
+#speed_label , #volume_label {
+    width: fit-content;
+}
